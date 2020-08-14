@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Function</title>
+    <style>
+        .main_search {
+            width: 600px;
+            border: 2px solid green;
+            margin: 100px auto 0;
+            padding: 30px;
+            box-sizing: border-box;
+            text-align: center;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        .main_search h1 {
+            color: red;
+            font-size: 40px;
+            font-weight: 700;
+            font-family: monospace;
+        }
+
+        .main_search h5 {
+            color: blue;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: monospace;
+        }
+
+        .main_search textarea {
+            width: 100%;
+            height: 100px;
+            resize: none;
+            border: 2px solid #222;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .main_search input {
+            width: 100%;
+            height: 30px;
+            border: 2px solid #222;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main_search">
+        <h1>Searching Word</h1>
+
+        <h5>Long Text</h5>
+        <textarea id="message"></textarea>
+        <h5>Short Text</h5>
+        <input type="text" id="search_word">
+        <div id="error_message"></div>
+
+    </div>
+
+
+
+
+    <script src="js/script.js"> </script>
+</body>
+
+</html>
